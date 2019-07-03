@@ -31,16 +31,18 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import static com.gyf.immersionbar.Constants.FLAG_FITS_DEFAULT;
-import static com.gyf.immersionbar.Constants.FLAG_FITS_STATUS;
-import static com.gyf.immersionbar.Constants.FLAG_FITS_SYSTEM_WINDOWS;
-import static com.gyf.immersionbar.Constants.FLAG_FITS_TITLE;
-import static com.gyf.immersionbar.Constants.FLAG_FITS_TITLE_MARGIN_TOP;
-import static com.gyf.immersionbar.Constants.IMMERSION_BOUNDARY_COLOR;
-import static com.gyf.immersionbar.Constants.IMMERSION_ID_NAVIGATION_BAR_VIEW;
-import static com.gyf.immersionbar.Constants.IMMERSION_ID_STATUS_BAR_VIEW;
-import static com.gyf.immersionbar.Constants.IMMERSION_MIUI_NAVIGATION_BAR_DARK;
-import static com.gyf.immersionbar.Constants.IMMERSION_MIUI_STATUS_BAR_DARK;
+import statusbar.cygrove.com.statusbarhelper.R;
+
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.FLAG_FITS_DEFAULT;
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.FLAG_FITS_STATUS;
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.FLAG_FITS_SYSTEM_WINDOWS;
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.FLAG_FITS_TITLE;
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.FLAG_FITS_TITLE_MARGIN_TOP;
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.IMMERSION_BOUNDARY_COLOR;
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.IMMERSION_ID_NAVIGATION_BAR_VIEW;
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.IMMERSION_ID_STATUS_BAR_VIEW;
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.IMMERSION_MIUI_NAVIGATION_BAR_DARK;
+import static statusbar.cygrove.com.statusbarhelper.immersionbar.Constants.IMMERSION_MIUI_STATUS_BAR_DARK;
 
 /**
  * android 4.4以上沉浸式以及bar的管理
